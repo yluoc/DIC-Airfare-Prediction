@@ -1,5 +1,5 @@
 ### Since the database is too large
-### for data preprocessing, data analysis, EDA, LSTM model fitting, download the database from using link: https://www.kaggle.com/datasets/yiclgg/airfare-database
+### for data preprocessing, data analysis, EDA, LSTM model fitting, download the database from using link: https://www.kaggle.com/datasets/yiclgg/airfare-database. Please rename the first column of cleaned data to idx.
 
 
 ## Airfare Prediction Flask App
