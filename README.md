@@ -27,12 +27,12 @@ This Flask app predicts airfare based on user input.
 
 ### Training the Model
 
-1. Run the `RF.py` script to train the RandomForest model:
+1. Run the `StackRegressor.py` script to train the Stack Regressor model:
     ```
-    python RF.py
+    python StackRegressor.py
     ```
 
-   This will create a file named `RF.pkl` which contains the trained model.
+   This will create a file named `StackRegressor.pkl` which contains the trained model.
 
 ### Running the Flask application
 
@@ -56,22 +56,3 @@ Using the Web Interface
 - Select the airline, source city, destination city, flight class, number of stops, departure time category, and arrival time category.
 - Adjust the days left and flight duration sliders as needed.
 - Click the "Predict Airfare" button to get the predicted airfare.
-
-### Files and Directories
-
-- `app.py`: Flask app script.
-- `index.html`: HTML template for the website interface.
-- `static/style.css`: CSS styles for the website interface.
-- `static/scripts.js`: JavaScript functions for interacting with the website interface.
-- `train_model.py`: Python script to train the RandomForest model.
-- `RF.pkl`: Pickle file containing the trained RandomForest model.
-- `requirements.txt`: List of required Python packages.
-
-### Additional Notes
-
-- Ensure that you have Python installed on your system, preferably Python 3.x.
-- It's recommended to use a virtual environment to manage dependencies and avoid conflicts with system-wide packages.
-- The `train_model.py` script utilizes the RandomForest algorithm to train the model. You can explore other algorithms or feature engineering techniques for better performance.
-- Customize the HTML, CSS, and JavaScript files to match your design preferences or integrate additional features.
-- Ensure that the Flask app is running (`python app.py`) before accessing the website interface in your browser.
-- Feel free to extend the functionality of the app or add more features based on your requirements.
