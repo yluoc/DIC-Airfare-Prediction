@@ -13,7 +13,7 @@ from sklearn.preprocessing import RobustScaler, LabelEncoder
 
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('C:/Users/lyc5d/Desktop/DIC-Airfare-Prediction/dataset/cleaned_data.csv')
+df = pd.read_csv('') # insert the local path
 # remove specifal character in database
 df.columns = df.columns.str.replace('[^a-zA-Z0-9_]', '_', regex=True)
 
