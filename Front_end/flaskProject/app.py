@@ -6,10 +6,10 @@ import os
 
 app = Flask(__name__)
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-path = os.path.join(script_dir, 'RF.pkl')
+# script_dir = os.path.dirname(os.path.abspath(__file__))
+# path = os.path.join(script_dir, 'RF.pkl')
 
-with open(path, 'rb') as f:
+with open('', 'rb') as f: # insert local path here
     trained_model = pickle.load(f)
 
 @app.route('/')
